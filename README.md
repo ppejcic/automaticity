@@ -5,20 +5,20 @@ This project contains automated tests written in Cypress for a demo e-commerce w
 * [Cypress](https://www.cypress.io/) (installed via npm, version 14.0.3)
 ## Installation
 1. Clone the repository:
-*  git clone https://github.com/ppejcic/automaticity.git
-* cd automaticity
+*  `git clone https://github.com/ppejcic/automaticity.git`
+* `cd automaticity`
 2. Install dependencies:
-* npm install
+* `npm install`
 ## Running Tests
-* To execute tests in headed mode: npx cypress open
-* To run tests in headless mode: npx cypress run
+* To execute tests in headed mode: `npx cypress open`
+* To run tests in headless mode: `npx cypress run`
 ## Project Structure
-* cypress/e2e/ – Contains the test files.
-* cypress/support/ – Custom commands and setup files.
-* cypress/fixtures/ – Test data.
-* cypress.config.js – Cypress configuration file.
+* `cypress/e2e/` – Contains the test files.
+* `cypress/support/` – Custom commands and setup files.
+* `cypress/fixtures/` – Test data.
+* `cypress.config.js` – Cypress configuration file.
 ## Known Issues
-# Test: cypress/e2e/cart.cy.js: 
+# Test: `cypress/e2e/cart.cy.js`: 
 * This test is flaky and sometimes fails.
 * Possible solution: Add retries or wait for a specific element before proceeding. 
 
